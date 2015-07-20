@@ -399,3 +399,4 @@ JODATIME,
 "org.opensaml:openws:jar:1.4.2-1",
 "org.owasp.esapi:esapi:jar:2.0GA"
 ]
+JCIFS = "jcifs:jcifs:jar:1.3.17"
