@@ -1,5 +1,5 @@
 # Keep this structure to allow the build system to update version numbers.
-VERSION_NUMBER = "7.6.2"
+VERSION_NUMBER = "7.6.3-SNAPSHOT"
 
 require "repositories.rb"
 
