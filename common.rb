@@ -104,6 +104,10 @@ JASYPT = "org.jasypt:jasypt:jar:1.8"
 ICAL = "ical4j:ical4j:jar:0.9.20"
 INTALIO_STATS = [ "org.intalio.common:intalio-stats:jar:1.0.2" ]
 ITEXT = "itext:itext:jar:1.3.1"
+ITEXTPDF = {
+	:pdf => "com.itextpdf:itextpdf:jar:5.5.6",
+	:toold => "com.itextpdf.tool:xmlworker:jar:5.4.1"
+}
 JARGS = "jargs:jargs:jar:1.0"
 JAXP_RI= "org.ow2.jonas.osgi:jaxp-ri:jar:5.1.1"
 SUNACTIVATION = ["javax.activation:activation:jar:1.1.1"]
@@ -528,6 +532,7 @@ JCIFS = "jcifs:jcifs:jar:1.3.17"
 
 VELOCITY = "org.apache.velocity:velocity:jar:1.7"
 LOWAGIE_ITEXT = "com.lowagie.text:com.lowagie.text:jar:2.1.7.v201004222200"
+
 FLYING_SAUCER = {
 :pdf=>"org.xhtmlrenderer:flying-saucer-pdf:jar:9.0.7",
 :core=>"org.xhtmlrenderer:flying-saucer-core:jar:9.0.7",
