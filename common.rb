@@ -350,6 +350,23 @@ APACHE_JPA_2_0_0 = [
 
 APACHE_JPA = APACHE_JPA_2_0_0
 
+SECURITY = { 
+  :client => "org.intalio.security:security-ws-client:jar:#{INTALIO_SECURITY_VERSION}",
+  :nutbolts => "org.intalio.security:security-web-nutsNbolts:jar:#{INTALIO_SECURITY_VERSION}",
+  :common => "org.intalio.security:security-ws-common:jar:#{INTALIO_SECURITY_VERSION}",
+  :api => "org.intalio.security:security-api:jar:#{INTALIO_SECURITY_VERSION}",
+}
+
+SOLRJ = {
+  :api => "org.apache.solr:solr-solrj:jar:6.5.0",
+  :core => "org.apache.solr:solr-core:jar:6.5.0",
+}
+
+ZOOKEEPER = "org.apache.zookeeper:zookeeper:jar:3.4.6"
+HTTPMIME = "org.apache.httpcomponents:httpmime:jar:4.4.1"
+NOGGIT = "org.noggit:noggit:jar:0.6"
+
+
 FREEMARKER = "org.freemarker:freemarker:jar:2.3.14"
 AOPALLIANCE ="aopalliance:aopalliance:jar:1.0"
 
