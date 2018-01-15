@@ -569,7 +569,14 @@ POWERMOCK = {
 JACKSON_274 = {
 :core => "com.fasterxml.jackson.core:jackson-core:jar:2.8.6",
 :databind => "com.fasterxml.jackson.core:jackson-databind:jar:2.8.6",
-:annotations => "com.fasterxml.jackson.core:jackson-annotations:jar:2.8.6"
+:annotations => "com.fasterxml.jackson.core:jackson-annotations:jar:2.8.6",
+:jaxb => "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.3",
+:dataformat => "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.3"
+}
+
+WOODSTOX_4 = {
+:stax2 => "org.codehaus.woodstox:stax2-api:jar:4.0.0",
+:core => "org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1"
 }
 
 JJWT = "io.jsonwebtoken:jjwt:jar:0.7.0"
