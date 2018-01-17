@@ -570,8 +570,8 @@ JACKSON_274 = {
 :core => "com.fasterxml.jackson.core:jackson-core:jar:2.8.6",
 :databind => "com.fasterxml.jackson.core:jackson-databind:jar:2.8.6",
 :annotations => "com.fasterxml.jackson.core:jackson-annotations:jar:2.8.6",
-:jaxb => "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.3",
-:dataformat => "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.3"
+:jaxb => "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.5.4",
+:dataformat => "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.5.4"
 }
 
 WOODSTOX_4 = {
